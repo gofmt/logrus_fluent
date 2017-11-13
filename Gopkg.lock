@@ -27,8 +27,8 @@
 [[projects]]
   name = "github.com/sirupsen/logrus"
   packages = ["."]
-  revision = "418b41d23a1bf978c06faea5313ba194650ac088"
-  version = "v0.8.7"
+  revision = "f006c2ac4710855cf0f916dd6b77acf6b048dc6e"
+  version = "v1.0.3"
 
 [[projects]]
   name = "github.com/stretchr/testify"
@@ -42,9 +42,21 @@
   revision = "b2b6a672cf1e5b90748f79b8b81fc8c5cf0571a1"
   version = "1.0.2"
 
+[[projects]]
+  branch = "master"
+  name = "golang.org/x/crypto"
+  packages = ["ssh/terminal"]
+  revision = "6a293f2d4b14b8e6d3f0539e383f6d0d30fce3fd"
+
+[[projects]]
+  branch = "master"
+  name = "golang.org/x/sys"
+  packages = ["unix","windows"]
+  revision = "1e2299c37cc91a509f1b12369872d27be0ce98a6"
+
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "deb6bbe36b8550e238f00b2d82e201f400cd72616f93dc56e9245c89390b39b8"
+  inputs-digest = "4d25fc5be312827d0d66b0f7b682fc49d84c6dc440073edaf973c7569e3d1175"
   solver-name = "gps-cdcl"
   solver-version = 1
