@@ -22,8 +22,8 @@
 
 
 [[constraint]]
-  name = "github.com/fluent/fluent-logger-golang"
-  revision = "a8dfe4adfeaf7b985acb486f6b060ff2f6a17e91"
+  name = "github.com/gofmt/fluent-logger-golang"
+  version = "~1.2.2"
 
 [[constraint]]
   name = "github.com/sirupsen/logrus"

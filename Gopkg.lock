@@ -8,9 +8,10 @@
   version = "v1.1.0"
 
 [[projects]]
-  name = "github.com/fluent/fluent-logger-golang"
+  name = "github.com/gofmt/fluent-logger-golang"
   packages = ["fluent"]
-  revision = "a8dfe4adfeaf7b985acb486f6b060ff2f6a17e91"
+  revision = "dda3600d60605a0407fb5689ee2ddefadf426929"
+  version = "v1.2.2"
 
 [[projects]]
   branch = "master"
@@ -57,6 +58,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "4d25fc5be312827d0d66b0f7b682fc49d84c6dc440073edaf973c7569e3d1175"
+  inputs-digest = "cb39a98a339c8e0b9019619c538d3a2d5e882432c6d861b679ca08f665bab1a8"
   solver-name = "gps-cdcl"
   solver-version = 1

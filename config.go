@@ -3,7 +3,7 @@ package logrus_fluent
 import (
 	"time"
 
-	"github.com/fluent/fluent-logger-golang/fluent"
+	"github.com/gofmt/fluent-logger-golang/fluent"
 	"github.com/sirupsen/logrus"
 )
 
